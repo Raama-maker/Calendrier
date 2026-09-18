@@ -1,0 +1,23 @@
+# Dépendances (Node.js & Electron)
+node_modules/
+package-lock.json
+
+# Fichiers de build et de distribution
+dist/
+out/
+build/
+
+# Fichiers système
+.DS_Store
+Thumbs.db
+
+# Journaux d'erreurs et logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Fichiers d'environnement et de configuration locale
+.env
+.env.local
+.vscode/
+.idea/
