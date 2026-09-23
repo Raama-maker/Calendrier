@@ -9,7 +9,8 @@ const win = new BrowserWindow({
     maximizable:false,
     fullscreenable:false,
     frame:false,
-    transparent:false,
+    transparent:true,
+    resizable:false,
     webPreferences:{
         contextIsolation:false,
         nodeIntegration: true,

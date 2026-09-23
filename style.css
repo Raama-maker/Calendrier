@@ -10,6 +10,7 @@ body {
     height: 100vh;
     user-select:none;
     -webkit-app-region:drag;
+    user-select: none;
     background-image: url("./assets/Violet_noeud.jpg");
     background-size: cover;
     background-position: center;
@@ -42,7 +43,7 @@ body {
 button,
 input,
 textarea,
-    select {
+    select, a {
         -webkit-app-region:no-drag;
         cursor: pointer;
     }

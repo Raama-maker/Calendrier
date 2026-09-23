@@ -4,11 +4,13 @@
   "description": "",
   "main": "main.js",
   "scripts": {
-    "start": "electron ."
+    "start": "electron .",
+    "package-win": "electron-packager . MonCalendrier --platform=win32 --arch=x64 --out=dist --overwrite"
   },
   "keywords": [],
   "type": "commonjs",
   "devDependencies": {
-    "electron": "^44.4.1"
+    "electron": "^44.4.1",
+    "electron-packager": "^17.1.2"
   }
 }
